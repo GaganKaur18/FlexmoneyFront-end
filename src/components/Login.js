@@ -54,7 +54,7 @@ const LogIn = ({ tel, setTel }) => {
 					let path = `/yogaSlot`;
 					navigate(path);
 				} else {
-					alert('Wront Passcode or Phone number');
+					alert('Wrong Passcode or Phone number');
 				}
 			});
 	};
